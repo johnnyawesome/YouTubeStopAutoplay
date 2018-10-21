@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.1
+// @version      1.0.2
 // @description  Take over the world! :)
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/*
