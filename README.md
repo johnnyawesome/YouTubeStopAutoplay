@@ -8,7 +8,7 @@ I find it annoying that, by default, Youtube just keeps playing the next suggest
 
 This script simply toggles the 'Autoplay' button to 'OFF'.
 
-### laylists will still autoplay when using this script.
+### Playlists will still autoplay when using this script.
 
 Playlists are obviously content that is coherent, so here, autoplay is fine, of course.
 
