@@ -8,7 +8,7 @@ I find it annoying that, by default, Youtube just keeps playing the next suggest
 
 This script simply toggles the 'Autoplay' button to 'OFF'.
 
-### __Playlists will still autoplay when using this script.__
+### laylists will still autoplay when using this script.
 
 Playlists are obviously content that is coherent, so here, autoplay is fine, of course.
 
@@ -23,4 +23,4 @@ It's also possible to run it in:
  - It even works from Firefoxes Scratchpad if you don't want to install the Plugin.
    (Settings --> Web Developer --> Scratchpad. Paste there, click RUN
    
-   __unterstrichen__
+
