@@ -7,7 +7,8 @@
 // @match        http://www.youtube.com/*
 // @match        https://www.youtube.com/*
 // @grant        none
-// @icon         https://cdn0.iconfinder.com/data/icons/pixelo/32/skull.png
+// @icon         https://raw.githubusercontent.com/johnnyawesome/MyLogo/master/MySkull32.ico
+// @icon64		 https://raw.githubusercontent.com/johnnyawesome/MyLogo/master/MySkull64.ico
 // @updateURL    https://github.com/johnnyawesome/UserscriptYoutubeStopAutoplay/raw/master/Youtube%20Stop%20Autoplay.user.js
 // @downloadURL  https://github.com/johnnyawesome/UserscriptYoutubeStopAutoplay/raw/master/Youtube%20Stop%20Autoplay.user.js
 // ==/UserScript==
