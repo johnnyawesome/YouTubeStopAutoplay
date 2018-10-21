@@ -15,10 +15,16 @@
 (function() {
     'use strict';
 
-	//if Autplay is turned on....
-	if(document.querySelector("#improved-toggle[active]") || document.querySelector("#improved-toggle[checked]")){
+	setInterval(turnAutoplayOff, 3000);
 
-  	//...turn it off.
-  	document.querySelector("#improved-toggle[active]").click();
+	function turnAutoplayOff(){
+
+		//if Autplay is turned on....
+		if(document.querySelector("#improved-toggle[active]") || document.querySelector("#improved-toggle[checked]")){
+
+		//...turn it off.
+		document.querySelector("#improved-toggle[active]").click();
+	}
 }
 })();
+
