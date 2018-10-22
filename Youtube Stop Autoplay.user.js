@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.2
+// @version      1.0.3
 // @description  Take over the world! :)
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/*
@@ -16,7 +16,7 @@
 (function() {
     'use strict';
 
-	setInterval(turnAutoplayOff, 3000);
+	setInterval(turnAutoplayOff, 15000);
 
 	function turnAutoplayOff(){
 
