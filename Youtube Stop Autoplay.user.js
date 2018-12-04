@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.4
+// @version      1.0.5
 // @description  Take over the world! :)
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/*
@@ -17,16 +17,20 @@
 (function() {
     'use strict';
 
-	setInterval(turnAutoplayOff, 15000);
+	setInterval(turnAutoplayOff, 5000);
 
 	function turnAutoplayOff(){
 
 		//if Autplay is turned on....
 		if(document.querySelector(".yt-uix-checkbox-on-off input[type='checkbox']:checked + label")){
 
-		//...turn it off.
-		document.getElementById('autoplay-checkbox').click();
+			//...turn it off.
+			document.getElementById('autoplay-checkbox').click();
+		}
+
+		if(document.getElementById("improved-toggle").getAttribute("aria-pressed") == 'true'){
+			document.getElementById("improved-toggle").click();
+		}
 	}
-}
 })();
 
