@@ -9,8 +9,8 @@
 // @grant        none
 // @icon         https://raw.githubusercontent.com/johnnyawesome/MyLogo/master/MySkull32.ico
 // @icon64		 https://raw.githubusercontent.com/johnnyawesome/MyLogo/master/MySkull64.ico
-// @updateURL    https://github.com/johnnyawesome/UserscriptYoutubeStopAutoplay/raw/master/Youtube%20Stop%20Autoplay.user.js
-// @downloadURL  https://github.com/johnnyawesome/UserscriptYoutubeStopAutoplay/raw/master/Youtube%20Stop%20Autoplay.user.js
+// @updateURL    https://raw.githubusercontent.com/johnnyawesome/YouTubeStopAutoplay/master/Youtube%20Stop%20Autoplay.user.js
+// @downloadURL  https://raw.githubusercontent.com/johnnyawesome/YouTubeStopAutoplay/master/Youtube%20Stop%20Autoplay.user.js
 // @noframes
 // ==/UserScript==
 
