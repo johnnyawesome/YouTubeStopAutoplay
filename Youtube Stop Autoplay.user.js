@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         YouTube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.5
-// @description  Stops YouTube from autoplaying videos
+// @version      1.0.6
+// @description  Stops YouTube from auto-playing videos
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/*
 // @match        https://www.youtube.com/*
