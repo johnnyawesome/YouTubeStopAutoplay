@@ -1,4 +1,4 @@
-# UserscriptYoutubeStopAutoplay
+# YoutubeStopAutoplay
 
 This Userscript stops Youtube From Autoplaying Videos
 
