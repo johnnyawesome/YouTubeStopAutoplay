@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Youtube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.5
+// @version      1.0.6
 // @description  Take over the world! :)
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/*
@@ -14,23 +14,17 @@
 // @noframes
 // ==/UserScript==
 
-(function() {
-    'use strict';
+'use strict';
 
-	setInterval(turnAutoplayOff, 5000);
+setInterval(turnAutoplayOff, 10000);
 
-	function turnAutoplayOff(){
+function turnAutoplayOff(){
 
-		//if Autplay is turned on....
-		if(document.querySelector(".yt-uix-checkbox-on-off input[type='checkbox']:checked + label")){
+	console.log("Status of Autoplay:", document.getElementById("toggle").getAttribute("aria-pressed"));
 
-			//...turn it off.
-			document.getElementById('autoplay-checkbox').click();
-		}
-
-		if(document.getElementById("improved-toggle").getAttribute("aria-pressed") == 'true'){
-			document.getElementById("improved-toggle").click();
-		}
+	if(document.getElementById("toggle").getAttribute("aria-pressed") == 'true'){
+		console.log("Autoplay is turned on. Turning it off.")
+		document.getElementById("toggle").click();
 	}
-})();
+}
 
