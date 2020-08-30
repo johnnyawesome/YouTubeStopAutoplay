@@ -23,7 +23,9 @@ function turnAutoplayOff(){
 
   //console.log("Autoplay is turned on:", document.getElementById("toggle").getAttribute("aria-pressed"));
 
-  if(document.getElementById("toggle").getAttribute("aria-pressed") == 'true'){
+  if(document.getElementById("toggle")
+  && document.getElementById("toggle").getAttribute("aria-pressed")
+  && document.getElementById("toggle").getAttribute("aria-pressed") == 'true'){
     console.log('%c YouTube Auto-Play is turned on. Turning it off. ', 'background: #000; color: #00ff00');
     document.getElementById("toggle").click();
   }
