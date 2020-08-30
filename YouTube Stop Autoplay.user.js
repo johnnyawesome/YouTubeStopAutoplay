@@ -19,8 +19,8 @@
 //Check (and if necessary) turn off Auto-Play every 10 seconds, indefinitely
 let autoplayStopper = setInterval(turnAutoplayOff, 10000);
 
-//Only for the first 15 seconds, check (and if necessary) turn off Auto-Play every 0.5 seconds
-for(let count = 0; count < 7500; count += 500) setTimeout(turnAutoplayOff, count);
+//Only for the first 10 seconds, check (and if necessary) turn off Auto-Play every 0.5 seconds
+for(let count = 0; count < 5000; count += 500) setTimeout(turnAutoplayOff, count);
 
 function turnAutoplayOff(){
 
