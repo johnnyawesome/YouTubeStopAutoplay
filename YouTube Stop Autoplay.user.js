@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.9
+// @version      1.0.10
 // @description  Stops YouTube from auto-playing videos
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/watch*
@@ -19,7 +19,7 @@
 //Check (and if necessary) turn off Auto-Play every 10 seconds, indefinitely
 let autoplayStopper = setInterval(turnAutoplayOff, 10000);
 
-//Only for 15 seconds, check (and if necessary) turn off Auto-Play every 0.5 seconds
+//Olny for the first 15 seconds, check (and if necessary) turn off Auto-Play every 0.5 seconds
 for(let count = 0; count < 7500; count += 500) setTimeout(turnAutoplayOff, count);
 
 function turnAutoplayOff(){
