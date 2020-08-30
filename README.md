@@ -2,6 +2,10 @@
 
 This Userscript stops YouTube From Autoplaying Videos
 
+##Before:
+![AutoplayOn](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOn.jpg)
+##After:
+
 ![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOff.jpg)
 
 ## What the script does
