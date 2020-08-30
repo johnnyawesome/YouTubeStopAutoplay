@@ -1,6 +1,6 @@
 # YoutubeStopAutoplay
 
-This Userscript stops YouTube From Autoplaying Videos
+This Userscript stops YouTube From Auto-Playing Videos
 
 ![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOff.jpg)
 
@@ -8,7 +8,7 @@ This Userscript stops YouTube From Autoplaying Videos
 
 By default, YouTube keeps playing the next video in the suggestions. Most of the time, those suggestions aren't very good.
 
-This script simply toggles the 'Autoplay' button to 'OFF' automatically.
+This script simply toggles the 'Auto-Play' button to 'OFF' automatically.
 
 #### Before:
 
@@ -18,9 +18,9 @@ This script simply toggles the 'Autoplay' button to 'OFF' automatically.
 
 ![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOff.jpg)
 
-### Playlists will still autoplay when using this script.
+### Playlists will still Auto-Play when using this script.
 
-Playlists are obviously content where Autoplay makes total sense: *The script will not stop Autoplay when you're watching videos from a playlist.*
+Playlists are obviously content where Auto-Play makes total sense: *The script will not stop Auto-Play when you're watching videos from a playlist.*
 
 ## How to run the script
 
