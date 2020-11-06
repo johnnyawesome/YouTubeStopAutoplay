@@ -19,9 +19,6 @@
 setInterval(turnAutoplayOff, 10000);
 
 function turnAutoplayOff(){
-
-  //console.log("Autoplay is turned on:", document.getElementById("toggle").getAttribute("aria-pressed"));
-
   if(document.getElementById("toggle")
   && document.getElementById("toggle").getAttribute("aria-pressed")
   && document.getElementById("toggle").getAttribute("aria-pressed") == 'true'){
