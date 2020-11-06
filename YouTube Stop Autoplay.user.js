@@ -20,11 +20,11 @@ setInterval(turnAutoplayOff, 10000);
 
 function turnAutoplayOff(){
 
-  let button = document.getElementsByClassName("ytp-autonav-toggle-button");
+  let button = document.getElementsByClassName("ytp-autonav-toggle-button")[0];
 
   if(button
-  && button[0].getAttribute("aria-checked") === "true"){
+  && button.getAttribute("aria-checked") === "true"){
     console.log('%c YouTube Auto-Play is turned on. Turning it off. ', 'background: #000; color: #00ff00');
-    button[0].click();
+    button.click();
   }
 }
