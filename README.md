@@ -2,7 +2,7 @@
 
 This Userscript stops YouTube From Auto-Playing Videos
 
-![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOff.jpg)
+![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/YouTubeAutoPlayOff.jpg)
 
 ## What the script does
 
@@ -12,11 +12,11 @@ This script simply toggles the 'Auto-Play' button to 'OFF' automatically.
 
 #### Before:
 
-![AutoplayOn](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOn.jpg)
+![AutoplayOn](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/YouTubeAutoPlayOn.jpg)
 
 #### After:
 
-![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/AutoplayOff.jpg)
+![AutoplayOff](https://github.com/johnnyawesome/YouTubeStopAutoplay/blob/master/DemoImg/YouTubeAutoPlayOff.jpg)
 
 ### Playlists will still Auto-Play when using this script.
 
