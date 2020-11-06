@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube Stop Autoplay
 // @namespace    https://github.com/johnnyawesome
-// @version      1.0.10
+// @version      1.0.11
 // @description  Stops YouTube from auto-playing videos
 // @author       JohnnyAwesome
 // @match        http://www.youtube.com/*
@@ -16,17 +16,15 @@
 
 'use strict';
 
-//Check (and if necessary) turn off Auto-Play every 10 seconds, indefinitely
-let autoplayStopper = setInterval(turnAutoplayOff, 10000);
+setInterval(turnAutoplayOff, 10000);
 
 function turnAutoplayOff(){
 
-  //console.log("Autoplay is turned on:", document.getElementById("toggle").getAttribute("aria-pressed"));
+  let button = document.getElementsByClassName("ytp-autonav-toggle-button");
 
-  if(document.getElementById("toggle")
-  && document.getElementById("toggle").getAttribute("aria-pressed")
-  && document.getElementById("toggle").getAttribute("aria-pressed") == 'true'){
+  if(button
+  && button[0].getAttribute("aria-checked") === "true"){
     console.log('%c YouTube Auto-Play is turned on. Turning it off. ', 'background: #000; color: #00ff00');
-    document.getElementById("toggle").click();
+    button[0].click();
   }
 }
